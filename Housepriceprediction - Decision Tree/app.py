@@ -8,7 +8,7 @@ import pickle
 app = Flask(__name__)
 
 #Step -3 Load Trained  Model
-model = pickle.load(open('Decision.pkl', 'rb'))
+model = pickle.load(open('DecisionTree', 'rb'))
 
 # Step -4 The route() function of the Flask class is a decorator,  
 # which tells the application which URL should call  
